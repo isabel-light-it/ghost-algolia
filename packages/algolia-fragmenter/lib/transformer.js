@@ -89,7 +89,6 @@ module.exports.transformToAlgoliaObject = (posts, ignoreSlugs) => {
             title: post.title,
             tags: [],
             authors: [],
-            title: post.title,
             custom_excerpt: post.custom_excerpt,
             published_at: post.published_at,
         };
