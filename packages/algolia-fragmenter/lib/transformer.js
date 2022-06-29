@@ -88,7 +88,10 @@ module.exports.transformToAlgoliaObject = (posts, ignoreSlugs) => {
             image: post.feature_image,
             title: post.title,
             tags: [],
-            authors: []
+            authors: [],
+            title: post.title,
+            custom_excerpt: post.custom_excerpt,
+            published_at: post.published_at,
         };
 
         // If we have an array of slugs to ignore, and the current
